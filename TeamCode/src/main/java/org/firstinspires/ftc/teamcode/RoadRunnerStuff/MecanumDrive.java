@@ -85,7 +85,7 @@ public class MecanumDrive  extends SubsystemBase {
         // path controller gains
         public double axialGain = 3;
         public double lateralGain = 8;
-        public double headingGain = 20; // shared with turn
+        public double headingGain = 16; // shared with turn
 
         public double axialVelGain = 0.0;
         public double lateralVelGain = 0.0;
